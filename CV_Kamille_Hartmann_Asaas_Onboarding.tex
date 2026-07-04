@@ -1,0 +1,95 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazilian]{babel}
+\usepackage[margin=2cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{parskip}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=black,
+  pdftitle={Kamille Hartmann Maccagnan - Currículo},
+  pdfauthor={Kamille Hartmann Maccagnan}
+}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+\newcommand{\cvheader}[4]{%
+  \begin{center}
+    {\LARGE\bfseries #1}\\[4pt]
+    {\large #2}\\[6pt]
+    #3\\[2pt]
+    #4
+  \end{center}
+  \vspace{4pt}
+}
+
+\newcommand{\experience}[3]{%
+  \textbf{#1} \hfill \textit{#2}\\[4pt]
+  #3
+  \vspace{8pt}
+}
+
+\begin{document}
+
+\cvheader{Kamille Hartmann Maccagnan}%
+{Analista de Onboarding | Implantação | Relacionamento com Clientes | Meios de Pagamento}%
+{Campo Comprido, Curitiba-PR \textbullet{} (41) 9 9928-4424 \textbullet{} \href{mailto:kamillehartmannm@gmail.com}{kamillehartmannm@gmail.com}}%
+{\href{https://linkedin.com/in/kamille-hartmann-maccagnan/}{linkedin.com/in/kamille-hartmann-maccagnan}}
+
+\section*{Resumo Profissional}
+
+Profissional com experiência em onboarding, capacitação de usuários, implantação de processos e interface entre clientes internos, operações e tecnologia. Atuação na condução de treinamentos, padronização de rotinas, elaboração de documentação funcional e acompanhamento de demandas em ambiente de varejo com meios de pagamento, incluindo PDV, TEF e POS integrados a adquirentes como REDE e Cielo. Vivência em homologação do sistema de vendas, investigação de incidentes, identificação de riscos operacionais e apoio à resolução de pendências que impactam a experiência do usuário. Experiência em PMO com acompanhamento de cronogramas, marcos de entrega, relatórios executivos e alinhamento com stakeholders em ambiente multinacional. Perfil organizado, comunicativo e analítico, com definição e monitoramento de indicadores em Power BI, conhecimento em metodologias ágeis e inglês avançado.
+
+\section*{Experiência Profissional}
+
+\experience{Anjuss -- Analista de Suporte de TI}{07/2025 -- Atual}{%
+Atuação na condução da jornada de entrada e capacitação de novos funcionários, com liderança de treinamentos, onboarding e disseminação de conhecimento entre lojas, operações e T.I. Responsável por atuar como ponte entre unidades de varejo e áreas internas de tecnologia, alinhando objetivos, escopo de uso do sistema, prazos operacionais, responsabilidades e critérios de execução por meio de documentação funcional estruturada, incluindo POPs para lojas e materiais técnicos para T.I. Participação em testes em ambiente de homologação do sistema de vendas, com validação de fluxos de pagamento e integração Cielo antes da liberação para as lojas, garantindo operação preparada para iniciar com qualidade. Interface direta com PDV, TEF e POS integrados à REDE e Cielo, com investigação de incidentes, acionamento de adquirentes, identificação de defeitos e oportunidades de melhoria na experiência operacional. Acompanhamento proativo de demandas, priorização de pendências, remoção de impedimentos e desenvolvimento de dashboards em Power BI para monitoramento de indicadores e reportes de acompanhamento da operação.}
+
+\experience{HORSE do Brasil -- Estagiária de TI (IS/IT LATAM)}{07/2024 -- 07/2025}{%
+Atuação em PMO e gestão de projetos em ambiente multinacional, com acompanhamento de cronogramas, marcos de entrega, indicadores de desempenho e visibilidade de status de iniciativas. Elaboração de relatórios executivos e materiais de acompanhamento para apresentação de resultados e alinhamento com stakeholders de negócio, fornecedores e times técnicos, com participação em reuniões conduzidas em até três idiomas simultaneamente. Atuação na documentação de processos, análise de riscos, identificação de pendências, investigação de desvios operacionais e facilitação de comunicação entre múltiplas áreas para garantir prazos e combinados. Participação em iniciativas de melhoria contínua, governança de dados e evolução de práticas de gestão com foco em qualidade de entregas.}
+
+\experience{Restaurante Familiar -- Analista de Dados e Suporte Técnico}{01/2023 -- 07/2024}{%
+Atuação no suporte à gestão do negócio com análise de vendas, performance operacional e resultados financeiros. Estruturação de base de dados em Excel e dashboards em Power BI para acompanhamento de indicadores, com padronização de informações e documentação de procedimentos para garantir consistência operacional. Responsável por identificar inconsistências, propor melhorias em processos e atuar no alinhamento entre áreas operacionais e administrativas, traduzindo necessidades do negócio em rotinas práticas de acompanhamento e validação.}
+
+\section*{Projetos e Conquistas}
+
+Estruturação de KPIs e dashboards para monitoramento de indicadores e suporte à tomada de decisão. Participação em iniciativas de melhoria contínua e otimização de processos. 1º lugar no Transformation Day Renault 2023 com solução orientada a dados e melhoria de processos. Participação no Hackathon Bosch 2023 com foco em resolução de problemas de negócio com uso de dados.
+
+\section*{Habilidades Técnicas}
+
+\textbf{Onboarding e Implantação:} Condução de treinamentos e onboarding, capacitação de usuários, documentação funcional, POPs, checklists operacionais, repasse de conhecimento, acompanhamento de início de operação, atendimento e esclarecimento de dúvidas.
+
+\textbf{Gestão de Projetos e Relacionamento:} PMO, acompanhamento de cronogramas e marcos, análise de riscos, priorização de demandas, remoção de impedimentos, interface com stakeholders, comunicação consultiva, Scrum, Kanban, Boas Práticas PMOBOK.
+
+\textbf{Meios de Pagamento e Operações:} PDV, TEF, POS, REDE, Cielo, adquirentes, homologação funcional, fluxo transacional, investigação de incidentes, fintech e serviços financeiros em contexto operacional de varejo.
+
+\textbf{Indicadores e Ferramentas:} KPIs, dashboards, Power BI (DAX, Power Query), Excel, SQL, Monday, Trello, ServiceNow, Spotfire, Pacote Office.
+
+\textbf{Idiomas:} Inglês avançado \textbullet{} Espanhol básico \textbullet{} Coreano básico.
+
+\section*{Formação Acadêmica}
+
+\textbf{PUCPR} -- Graduação em Gestão da Tecnologia da Informação \hfill Previsão de conclusão: 06/2026\\
+Curitiba, PR
+
+\textbf{Escola Conquer} -- Pós-graduação em Liderança e Gestão em Tecnologia \hfill Conclusão: 2024\\
+Curitiba, PR
+
+\textbf{Universidade Tuiuti do Paraná} -- Graduação em Medicina Veterinária \hfill Conclusão: 06/2019\\
+Curitiba, PR
+
+\textbf{Qualittas} -- Pós-graduação em Clínica Médica e Cirúrgica de Animais Exóticos e Pets Não Convencionais \hfill Conclusão: 12/2022\\
+Curitiba, PR
+
+\end{document}

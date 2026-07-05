@@ -1,0 +1,101 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[margin=2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black,
+  pdfborder={0 0 0}
+}
+
+\definecolor{sectioncolor}{HTML}{111111}
+\definecolor{accentcolor}{HTML}{1A1A1A}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\linespread{1.05}
+\selectfont
+
+\titleformat{\section}
+  {\bfseries\large\color{sectioncolor}}
+  {}{0pt}{}[\vspace{-2pt}{\color{sectioncolor}\titlerule[0.8pt]}]
+\titlespacing*{\section}{0pt}{12pt}{8pt}
+
+\newcommand{\cvrole}[4]{%
+  \vspace{4pt}%
+  {\bfseries\color{accentcolor}#1}\hfill{\itshape #2}\\[-2pt]%
+  {\itshape #3}\hfill #4\\[6pt]%
+}
+
+\begin{document}
+
+\begin{center}
+  {\fontsize{20}{24}\selectfont\bfseries Kamille Hartmann Maccagnan}\\[8pt]
+  {\large Business Intelligence Analyst \textbar{} Power BI, SQL \& Excel}\\[10pt]
+  Campo Comprido, Curitiba, Brazil \enspace\textbullet\enspace +55 (41) 9 9928-4424 \enspace\textbullet\enspace
+  \href{mailto:kamillehartmannm@gmail.com}{kamillehartmannm@gmail.com}\\[3pt]
+  \href{https://linkedin.com/in/kamille-hartmann-maccagnan/}{linkedin.com/in/kamille-hartmann-maccagnan/}
+\end{center}
+
+\vspace{6pt}
+
+\section{Professional Summary}
+
+Business Intelligence professional with hands-on experience designing, building, and maintaining interactive Power BI dashboards, developing DAX measures, and transforming raw data into actionable business insights. Skilled in the full reporting lifecycle, from gathering requirements and validating data quality to delivering analytics that support financial performance monitoring, trend analysis, and operational decision-making. Proficient in SQL, advanced Excel, and Power Query for extracting, cleaning, and modeling data from multiple sources. Collaborative communicator with experience partnering with cross-functional stakeholders in corporate and multinational environments. Advanced English proficiency.
+
+\section{Professional Experience}
+
+\cvrole{Anjuss}{IT Support Analyst}{Jul 2025 -- Present}
+
+Design and maintain Power BI dashboards and reports for operational and process performance monitoring, supporting data-driven decision-making across the business. Extract, clean, validate, and transform data using Power Query and advanced Excel, applying validation rules to ensure reporting accuracy and data consistency. Partner with internal teams to gather reporting requirements, translate business needs into analytical solutions, and deliver standardized visualizations that improve visibility into key performance indicators. Support data quality analysis by identifying inconsistencies and contributing to process improvements that strengthen reporting reliability.
+
+\cvrole{HORSE do Brasil}{IT Intern (IS/IT LATAM)}{Jul 2024 -- Jul 2025}
+
+Supported data and PMO teams in a multinational industrial environment, developing executive reports and interactive Power BI dashboards to monitor project performance and strategic initiatives. Participated in data governance activities, documentation, and data quality validation to ensure reliable analytics and reporting accuracy. Implemented Power Automate workflows to automate BI report distribution and supported natural-language queries through Power BI Q\&A features. Collaborated with business, operations, and international stakeholders in multilingual meetings, aligning reporting requirements with technical deliverables and presenting insights to both technical and non-technical audiences.
+
+\cvrole{Family Restaurant}{Data Analyst \& Technical Support}{Jan 2023 -- Jul 2024}
+
+Built the operational database from scratch in Excel and developed Power BI dashboards to monitor sales, financial results, and business performance indicators. Modeled KPIs and organized data structures to enable scalable, reliable reporting and trend analysis. Extracted, integrated, and standardized data from multiple operational sources, performing data quality checks and corrective validation to improve reporting accuracy. Delivered analytical insights and reports to support management decisions, business performance monitoring, and process improvement initiatives.
+
+\section{Technical Skills}
+
+\textbf{Business Intelligence:} Power BI (DAX, Power Query, data modeling), interactive dashboards and reports, data visualization, KPI development, executive and operational reporting, business analytics.
+
+\textbf{Data \& Databases:} SQL, advanced Excel (PivotTables, Power Query, complex formulas, data modeling), ETL, relational databases, data extraction, validation, and quality analysis.
+
+\textbf{Automation \& Tools:} Power Automate, ServiceNow, Google Sheets, Microsoft Office Suite, Trello, Monday.
+
+\textbf{Methodologies:} Scrum, Kanban, PMO best practices.
+
+\textbf{Languages:} English (Advanced) \enspace\textbullet\enspace Spanish (Basic) \enspace\textbullet\enspace Korean (Basic)
+
+\section{Projects \& Achievements}
+
+1st place at Transformation Day Renault 2023 with a data-driven process improvement solution. Participant at Bosch Hackathon 2023 focused on business problem-solving with data analytics. End-to-end implementation of Excel databases and Power BI dashboards for sales and performance monitoring. Automated BI report distribution workflows using Power Automate integrated with Power BI at HORSE.
+
+\section{Education}
+
+\textbf{PUCPR} \hfill Curitiba, Brazil\\
+Bachelor's Degree in Information Technology Management \hfill Expected completion: Jun 2026\\[6pt]
+
+\textbf{Escola Conquer} \hfill Curitiba, Brazil\\
+Postgraduate Degree in Leadership and Technology Management \hfill Completed: 2024\\[6pt]
+
+\textbf{Universidade Tuiuti do Paraná} \hfill Curitiba, Brazil\\
+Bachelor's Degree in Veterinary Medicine \hfill Jun 2019\\[6pt]
+
+\textbf{Qualittas} \hfill Curitiba, Brazil\\
+Postgraduate Degree in Medical and Surgical Clinic of Exotic Animals and Non-Conventional Pets \hfill Dec 2022
+
+\end{document}
